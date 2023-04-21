@@ -1,0 +1,43 @@
+<div class="bbblive_block">
+  <div class="wrapper-comp-settings is-active editor-with-buttons" id="settings-tab">
+    <ul class="list-input settings-list">
+      <li class="field comp-setting-entry is-set">
+        <div class="wrapper-comp-setting">
+          <label class="label setting-label">课程名称：</label>
+          <label class="label setting-label" id="liveNameLable">{liveNameLable}</label>
+        </div>
+      </li>
+      <li id = "teacher-only-li" class="field comp-setting-entry is-set" style="display:none;">
+        <div class="wrapper-comp-setting">
+          <label class="label setting-label" for="bbbURL">开启会议：</label>
+          <a href="#" id="teacher-enter-href" target="_blank">仅供主持人使用</a>
+          <label class="label setting-label" id="redlightUsername" style="display:none;">{redlightUsername}</label>
+          <label class="label setting-label" id="redlightPassword" style="display:none;">{redlightPassword}</label>
+        </div>
+      </li>
+      <li class="field comp-setting-entry is-set">
+        <div class="wrapper-comp-setting">
+          <label class="label setting-label" for="bbbURL">BBB直播间：</label>
+          <a href="{bbbURL}" id="bbbURLLable" target="_blank" style="display:none;">{bbbURLLable}</a>
+          <label class="label setting-label" id="bbbPasswordLable" style="display:none;">{bbbPasswordLable}</label>
+          <!--button type="button" class="button enter-button" id="enter-button">进入直播间</button-->
+          <a href="#" id="enter-href" target="_blank">进入直播间</a>
+          <!--a href="#" id="enter-img-href" target="_blank"><img id="enter-img" src=""></img></a-->
+        </div>
+      </li>
+      <li class="field comp-setting-entry is-set" style="display:none;">
+        <div class="wrapper-comp-setting">
+          <label class="label setting-label" for="thirdURL">第三方直播间链接(备用)：</label>
+          <a href="{thirdURL}" id="thirdURLLable" target="_blank">{thirdURLLable}</a>
+        </div>
+        <span class="tip setting-help">备注：目前支持腾讯会议，zoom等直播工具</span>
+      </li>
+      <li class="field comp-setting-entry is-set" style="display:none;">
+        <div class="wrapper-comp-setting">
+          <label class="label setting-label">直播简介：</label>
+          <label class="label setting-label" id="descriptionLable">{descriptionLable}</label>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
